@@ -39,3 +39,17 @@
   .p-1 {
     padding: 1px;
   }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .col {
+    flex-grow: inherit;
+    margin-right: 10px;
+    flex-direction: column;
+
+  }
+  input {
+    display: block;
+    margin: 5px;
+  }
